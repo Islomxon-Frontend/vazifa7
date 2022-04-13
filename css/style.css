@@ -1,22 +1,119 @@
-body{
-    margin: 0;padding: 0;
-    /* background: #000; */
+/* body{ */
+/* margin: 0;padding: 0; */
+/* background: #000; */
+/* } */
+/* table th, td { */
+/* border:1px solid black; */
+/* margin: 50px; */
+/* padding: 50px; */
+/* font-size: 50px; */
+/* text-align: center; */
+/* } */
+
+/* td { */
+/* color: #fff; */
+/* } */
+/* td:hover { */
+/* background: yellow; */
+/* } */
+/* td:active { */
+/* background: green; */
+/* } */
+
+div {
+    margin-bottom: 20px;
 }
-table th, td {
-    border:1px solid black;
-    margin: 50px;
-    padding: 50px;
-font-size: 50px;
-text-align: center;
+.Facebook {
+    width: 200px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
 }
 
-td {
-    color: #fff;
-}
-td:hover {
-    background: yellow;
-}
-td:active {
-    background: green;
+.Instagram {
+    width: 200px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
 }
 
+.You-Tube {
+    width: 200px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.Twitch {
+    width: 200px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.Facebook:hover {
+    background-color: yellow;
+    color: blue;
+    box-shadow: 0px 5px 10px black;
+}
+.Facebook:active{
+    background-color:greenyellow;
+    color: white;
+}
+.Facebook:focus {
+    background-color: greenyellow;
+}
+
+.Instagram:hover {
+    background-color: yellow;
+    color: palevioletred;
+    box-shadow: 0px 5px 10px black;
+}
+
+.Instagram:active {
+    background-color: greenyellow;
+    color: white;
+}
+
+.Instagram:focus {
+    background-color: greenyellow;
+}
+
+.You-Tube:hover {
+    background-color: yellow;
+    color: red;
+    box-shadow: 0px 5px 10px black;
+}
+
+.You-Tube:active {
+    background-color: greenyellow;
+    color: white;
+}
+
+.You-Tube:focus {
+    background-color: greenyellow;
+}
+
+.Twitch:hover {
+    background-color: yellow;
+    color: skyblue;
+    box-shadow: 0px 5px 10px black;
+}
+
+.Twitch:active {
+    background-color: greenyellow;
+    color: white;
+}
+
+.Twitch:focus {
+    background-color: greenyellow;
+}
