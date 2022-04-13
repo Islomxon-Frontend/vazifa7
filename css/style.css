@@ -1,0 +1,22 @@
+body{
+    margin: 0;padding: 0;
+    /* background: #000; */
+}
+table th, td {
+    border:1px solid black;
+    margin: 50px;
+    padding: 50px;
+font-size: 50px;
+text-align: center;
+}
+
+td {
+    color: #fff;
+}
+td:hover {
+    background: yellow;
+}
+td:active {
+    background: green;
+}
+
